@@ -1,5 +1,19 @@
 @import "~bootstrap/scss/bootstrap";
 
 body {
-  background-color: aqua;
+  background-color: grey;
+}
+
+#app {
+  flex-flow: wrap;
+  flex-direction: row;
+  width : 1080px;
+  height : auto;
+  align-self: center;
+  margin-left: 28%;
+  margin-right: 28%;
+    #filter{
+      margin: 1%;
+      padding: 1%;
+    }
 }
