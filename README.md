@@ -16,4 +16,6 @@ $ npm install -g http-server
 ## Running
 Browse to tamagotchi directory and run http server
 
-![Tamagotchi](https://raw.githubusercontent.com/wchipchase/tamagotchi/setup/screenshots/tamagotchi.JPG "Tamagotchi")
+![Shotz](https://raw.githubusercontent.com/wchipchase/shotz/master/screenshots/shotz1.JPG "Shotz")
+
+![Shotz](https://raw.githubusercontent.com/wchipchase/shotz/master/screenshots/shotz2.JPG "Shotz")
