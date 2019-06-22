@@ -1,5 +1,6 @@
 import movies from './components/movies/movies';
 import locations from './components/locations/locations';
+import 'bootstrap';
 
 import '../styles/main.scss';
 

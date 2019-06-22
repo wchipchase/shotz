@@ -1,5 +1,6 @@
 import locationsData from '../../helpers/data/locationsData';
 import util from '../../helpers/util';
+
 import './locations.scss';
 
 let locations = [];
@@ -33,6 +34,7 @@ const domStringBuilder = (locArray) => {
     domString += '<div class="card-body">';
     domString += `<img class="card-img-top" src="${location.imageUrl}" alt="${location.name}">`;
     domString += `<h5 class="card-title">${location.address}</h5>`;
+    domString += `<button type="button" class="btn btn-primary" id="${location.name}">${location.name}</button>`;
     domString += '</div>';
     domString += '</div>';
   });
